@@ -1,0 +1,121 @@
+@media screen {
+	.wrapper {
+		width: 100%;
+		padding: 0;
+	}
+	html,body {
+		width: 100%;
+		height: 100%;
+}
+
+.wrapper {
+	width: 1000px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background-color: none;
+}
+
+.headerContent {
+	padding: 10px;
+	overflow: hidden;
+	background-color: blue;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	background: yellow;
+	width: 20%;
+	height: 70px;
+	border: 3px solid blue;
+}
+
+.menu {
+	float: right;
+	font-weight: bold;
+	overflow: hidden;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	width: 80%;
+}
+.menu1, .menu2, .menu3 {
+	width: 50px;
+    height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	border: 3px solid blue;
+}
+
+.content {
+	overflow: hidden;
+	background-color: none;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.leftCol {
+	float: left;
+    width: 20%;
+    height: 300px;
+    background-color: blue;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftColin {
+    width: 90%;
+    height: 90%;
+    background-color: yellow;
+}
+.main {
+	float: right;
+    width: 80%;
+    height: 300px;
+    background-color: blue;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainin1, .mainin2, .mainin3  {
+	width: 95%;
+    height: 33%;
+    background-color: yellow;
+    margin: 5px;
+}
+
+.footerfirst {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background-color: none;
+}
+.footer {
+	padding: 10px;
+	overflow: hidden;
+	background-color: blue;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.contact1, .contact2, .contact3, .contact4  {
+	float: left;
+    width: 25%;
+    border: 3px solid blue;
+    height: 100px;
+    background-color: yellow;
+}
